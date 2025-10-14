@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: LibreriaImages
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5523459934279028213
+  m_GuidHigh: 5704764341403736991
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5322051242542649467
+      m_GuidHigh: 8328461134290401445
+    m_SerializedTextureGuid:
+      m_GuidLow: 2126892857431716972
+      m_GuidHigh: 17137680008710133785
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 1970-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5309899891643803637
+      m_GuidHigh: 348930041205414799
+    m_SerializedTextureGuid:
+      m_GuidLow: 17484315238595124301
+      m_GuidHigh: 1546458715895921515
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 1980-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5543085990626714723
+      m_GuidHigh: 7474069605467656080
+    m_SerializedTextureGuid:
+      m_GuidLow: 17628458394882205280
+      m_GuidHigh: 18214983911731010937
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 1990-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5274605871760830318
+      m_GuidHigh: 11613468613435687310
+    m_SerializedTextureGuid:
+      m_GuidLow: 7427764684638869407
+      m_GuidHigh: 90244934995748312
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 2000-1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5302691947282181563
+      m_GuidHigh: 4499356610044797361
+    m_SerializedTextureGuid:
+      m_GuidLow: 2307143538199743341
+      m_GuidHigh: 16955310051244312152
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 2010-1
+    m_Texture: {fileID: 0}
