@@ -188,71 +188,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
---- !u!1 &418393903
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 418393906}
-  - component: {fileID: 418393905}
-  - component: {fileID: 418393904}
-  m_Layer: 0
-  m_Name: VPSManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &418393904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418393903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04013b89158ee479c9d622e942e3b60b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &418393905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418393903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b7a84ef975499041a018a829a547c2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  earthManager: {fileID: 418393904}
-  aRAnchorManager: {fileID: 1432988674}
-  geospatialObjects:
-  - ObjectPrefab: {fileID: 9105332680651387279, guid: 65becb5aff7db8c498dae735ec3c0711, type: 3}
-    EarthPosition:
-      Latitude: 3.353685037755218
-      Longitude: -76.52249590569487
-      Altitude: 1017.4746
---- !u!4 &418393906
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418393903}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.16577, y: -7.1665516, z: 18.388865}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &702835672
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,55 +596,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287013554}
   m_CullTransparentMesh: 1
---- !u!1 &1391450345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1391450347}
-  - component: {fileID: 1391450346}
-  m_Layer: 0
-  m_Name: ARCore Extensions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1391450346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391450345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b50ad3f5d9024549b0a549c5a03a084, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Session: {fileID: 1433879661}
-  Origin: {fileID: 1432988670}
-  CameraManager: {fileID: 1606897380}
-  ARCoreExtensionsConfig: {fileID: 11400000, guid: 8cf5b7841ab93834b918e7c196f7b967, type: 2}
-  CameraConfigFilter: {fileID: 11400000, guid: dfcacbe795daf1f4c8171cccf49db020, type: 2}
---- !u!4 &1391450347
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391450345}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1432988669
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +608,6 @@ GameObject:
   - component: {fileID: 1432988670}
   - component: {fileID: 1432988673}
   - component: {fileID: 1432988672}
-  - component: {fileID: 1432988674}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -802,22 +687,6 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: e3b8dad8aa0fcec4297416862a02aba2, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
---- !u!114 &1432988674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432988669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 728ad7fae8e460a4ba41265c7308d757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <trackablesChanged>k__BackingField:
-    m_PersistentCalls:
-      m_Calls: []
-  m_AnchorPrefab: {fileID: 0}
 --- !u!1 &1433879659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,7 +1588,6 @@ SceneRoots:
   - {fileID: 1996193118}
   - {fileID: 1433879662}
   - {fileID: 1432988671}
-  - {fileID: 1391450347}
   - {fileID: 1703601102}
   - {fileID: 30686424}
   - {fileID: 702835673}
@@ -1727,4 +1595,3 @@ SceneRoots:
   - {fileID: 1142783174}
   - {fileID: 751229030}
   - {fileID: 6165209663632421659}
-  - {fileID: 418393906}
