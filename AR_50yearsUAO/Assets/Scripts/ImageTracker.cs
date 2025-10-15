@@ -12,7 +12,7 @@ using TMPro;
 /// Compatible con Unity 6 y AR Foundation 6.
 /// </summary>
 [RequireComponent(typeof(ARTrackedImageManager))]
-public class RecorridoEducativoRA : MonoBehaviour
+public class ImageTracker : MonoBehaviour
 {
     [Header("Componentes AR")]
     [SerializeField] private ARTrackedImageManager arManager;
@@ -88,6 +88,18 @@ public class RecorridoEducativoRA : MonoBehaviour
             //MostrarInfoEnUI(nombre);
             //EjecutarAccionEspecial(nombre);
         }
+    }
+
+
+    public void SimularDeteccion(string nombre, Transform ubicacion)
+    {
+        if (!contenidoActivo.ContainsKey(nombre)) return;
+
+        GameObject contenido = contenidoActivo[nombre];
+        contenido.transform.position = ubicacion.position;
+        contenido.transform.rotation = ubicacion.rotation;
+        contenido.SetActive(true);
+        Debug.Log($"[Simulación manual] Imagen detectada: {nombre}");
     }
 
     /// <summary>
