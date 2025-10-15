@@ -31,7 +31,7 @@ public class PlaneTracker : MonoBehaviour
 
     // Control interno
     private bool objetoInstanciado = false;
-
+    private GameObject objetoActual;
     private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
@@ -76,45 +76,33 @@ public class PlaneTracker : MonoBehaviour
             return;
         }
 
+        // Si ya hay un objeto, lo destruimos antes de crear otro
+        if (objetoActual != null)
+            Destroy(objetoActual);
+
         Vector3 posicion = plano.center;
         GameObject prefab = objetosDisponibles[indiceObjeto];
 
-        GameObject instancia = Instantiate(prefab, posicion, Quaternion.identity);
-        instancia.name = prefab.name;
+        objetoActual = Instantiate(prefab, posicion, Quaternion.identity);
+        objetoActual.name = prefab.name;
+
         string name = prefab.name;
-        Debug.Log($"Objeto '{instancia.name}' instanciado sobre el plano.");
         switch (name)
         {
-            case "Stand1":
-                name = "1970-1";
-                break;
-            case "Stand2":
-                name = "1980-1";
-                break;
-            case "Stand3":
-                name = "1990-1";
-                break;
-            case "Stand4":
-                name = "2000-1";
-                break;
-            case "Stand5":
-                name = "2010-1";
-                break;
-        }
-        // El prefab ya tiene su SimulatedTrackedImage
-        // XR Simulation lo detectará automáticamente
-        objetoInstanciado = true;
-        // Dentro de PlaneTracker.cs al instanciar
-        var imageTracker = gameObject.GetComponent<ImageTracker>();
-        if (imageTracker != null)
-        {
-            imageTracker.SimularDeteccion(name, instancia.transform);
-            Debug.Log("funciona");
+            case "Stand1": name = "1970-1"; break;
+            case "Stand2": name = "1980-1"; break;
+            case "Stand3": name = "1990-1"; break;
+            case "Stand4": name = "2000-1"; break;
+            case "Stand5": name = "2010-1"; break;
         }
 
-        //desactivar la detección de planos después de colocar
-        //ToggleReconocimiento(false);
+        var imageTracker = gameObject.GetComponent<ImageTracker>();
+        if (imageTracker != null)
+            imageTracker.SimularDeteccion(name, objetoActual.transform);
+        reconocimientoActivo = false;
+        Debug.Log($"Objeto '{objetoActual.name}' instanciado sobre el plano.");
     }
+
 
     /// <summary>
     /// Activa o desactiva el reconocimiento de planos y visibilidad de los detectados.
@@ -130,5 +118,15 @@ public class PlaneTracker : MonoBehaviour
             plano.gameObject.SetActive(estado);
 
         Debug.Log($"Reconocimiento de planos: {(estado ? "Activado" : "Desactivado")}");
+    }
+
+    public void nextStand() 
+    {
+        indiceObjeto++;
+    }
+
+    public void previusStand()
+    {
+        indiceObjeto--;
     }
 }
