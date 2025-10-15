@@ -7,6 +7,10 @@ namespace StarterAssets
 {
 	public class StarterAssetsInputs : MonoBehaviour
 	{
+		[SerializeField] private ARAssistantController assistant;
+		[SerializeField] private Camera arCamera; 
+
+
 		[Header("Character Input Values")]
 		public Vector2 move;
 		public Vector2 look;
@@ -76,5 +80,6 @@ namespace StarterAssets
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
 	}
-	
+
+
 }

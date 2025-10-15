@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - CinemachineTarget
+  - Stand1970
+  - Stand1980
+  - Stand1990
+  - Stand2000
+  - Stand2010
   layers:
   - Default
   - TransparentFX
