@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<projectSettings>
-  <projectSetting name="com.google.external-dependency-managerAnalyticsCookie" value="9f7d4cbf0cb24ad4953e7ff7e64f9013" />
-  <projectSetting name="com.google.external-dependency-managerAnalyticsEnabled" value="True" />
-  <projectSetting name="GooglePlayServices.UseJetifier" value="True" />
-</projectSettings>

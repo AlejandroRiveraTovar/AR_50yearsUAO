@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.google.ar.core.arfoundation.extensions": "https://github.com/google-ar/arcore-unity-extensions.git#arf5",
     "com.unity.ai.navigation": "2.0.8",
     "com.unity.burst": "1.8.24",
     "com.unity.cinemachine": "2.10.4",
