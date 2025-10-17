@@ -1,14 +1,12 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
 
 /// <summary>
-/// Controla un recorrido educativo en RA basado en imágenes.
-/// Cada imagen (stand) activa contenido diferente (modelo, video, texto, escena, etc.).
+/// Controla un solo objeto RA que se instancia una vez al detectar la primera imagen.
+/// Si se detecta una nueva imagen, el objeto se mueve a su posición.
+/// No destruye el objeto.
 /// Compatible con Unity 6 y AR Foundation 6.
 /// </summary>
 [RequireComponent(typeof(ARTrackedImageManager))]
@@ -17,36 +15,20 @@ public class ImageTracker : MonoBehaviour
     [Header("Componentes AR")]
     [SerializeField] private ARTrackedImageManager arManager;
 
-    [Header("Contenidos por stand")]
-    [SerializeField] private GameObject[] contenidosRA;
+    [Header("Objeto RA único (prefab)")]
+    [SerializeField] private GameObject objetoPrefab;
 
     [Header("UI opcional")]
     [SerializeField] private Canvas infoCanvas;
     [SerializeField] private TMP_Text infoText;
 
-    private Dictionary<string, GameObject> contenidoActivo = new();
-    private Dictionary<string, bool> mostrado = new();
+    // Referencia al objeto instanciado actualmente
+    private GameObject objetoInstanciado;
 
     void Awake()
     {
         if (arManager == null)
             arManager = GetComponent<ARTrackedImageManager>();
-    }
-
-    void Start()
-    {
-        // Instanciamos los contenidos pero los ocultamos al inicio
-        foreach (var prefab in contenidosRA)
-        {
-            var instancia = Instantiate(prefab, Vector3.zero, Quaternion.identity);
-            instancia.name = prefab.name;
-            instancia.SetActive(false);
-            contenidoActivo.Add(prefab.name, instancia);
-            mostrado.Add(prefab.name, false);
-        }
-
-        if (infoCanvas != null)
-            infoCanvas.enabled = true;
     }
 
     void OnEnable() => arManager.trackablesChanged.AddListener(OnTrackedImagesChanged);
@@ -55,102 +37,64 @@ public class ImageTracker : MonoBehaviour
     private void OnTrackedImagesChanged(ARTrackablesChangedEventArgs<ARTrackedImage> args)
     {
         foreach (var img in args.added)
-            MostrarContenido(img);
+            ActualizarObjeto(img);
 
         foreach (var img in args.updated)
-            MostrarContenido(img);
+            ActualizarObjeto(img);
     }
 
     /// <summary>
-    /// Muestra o actualiza el contenido según la imagen detectada.
+    /// Instancia el objeto si no existe, o lo mueve si ya fue creado.
     /// </summary>
-    private void MostrarContenido(ARTrackedImage trackedImage)
+    private void ActualizarObjeto(ARTrackedImage trackedImage)
     {
-        string nombre = trackedImage.referenceImage.name;
-
-        if (!contenidoActivo.ContainsKey(nombre))
+        if (objetoPrefab == null)
         {
-            Debug.LogWarning($"No hay contenido asignado para: {nombre}");
+            Debug.LogWarning("ImageTracker: No se ha asignado un prefab.");
             return;
         }
 
-        GameObject contenido = contenidoActivo[nombre];
-        contenido.transform.position = trackedImage.transform.position;
-        contenido.transform.rotation = trackedImage.transform.rotation;
-
-        // Si no se había mostrado antes, lo activamos y mostramos información
-        if (!mostrado[nombre])
+        // Solo instanciar una vez
+        if (objetoInstanciado == null)
         {
-            contenido.SetActive(true);
-            mostrado[nombre] = true;
-            Debug.Log($"Contenido activado para: {nombre}");
+            Vector3 posicion = trackedImage.transform.position + new Vector3(0, 0.05f, 0);
+            objetoInstanciado = Instantiate(objetoPrefab, posicion, trackedImage.transform.rotation);
+            objetoInstanciado.name = objetoPrefab.name;
 
-            //MostrarInfoEnUI(nombre);
-            //EjecutarAccionEspecial(nombre);
+            Debug.Log($"ImageTracker: Instanciado '{objetoInstanciado.name}' en '{trackedImage.referenceImage.name}'.");
         }
-    }
+        else
+        {
+            // Solo moverlo si la imagen cambia o se actualiza
+            objetoInstanciado.transform.position = trackedImage.transform.position + new Vector3(0, 0.05f, 0);
+            objetoInstanciado.transform.rotation = trackedImage.transform.rotation;
+        }
 
-
-    public void SimularDeteccion(string nombre, Transform ubicacion)
-    {
-        if (!contenidoActivo.ContainsKey(nombre)) return;
-
-        GameObject contenido = contenidoActivo[nombre];
-        contenido.transform.position = ubicacion.position;
-        contenido.transform.rotation = ubicacion.rotation;
-        contenido.SetActive(true);
-        Debug.Log($"[Simulación manual] Imagen detectada: {nombre}");
+        // Mostrar información opcional en la UI
+        if (infoText != null)
+            infoText.text = $"Imagen detectada: {trackedImage.referenceImage.name}";
     }
 
     /// <summary>
-    /// Muestra texto o descripción educativa según el stand.
+    /// Permite simular detección manual desde el editor.
     /// </summary>
-    private void MostrarInfoEnUI(string nombre)
+    public void SimularDeteccion()
     {
-        if (infoText == null) return;
-
-        string descripcion = nombre switch
+        if (objetoPrefab == null)
         {
-            "Stand1_Biodiversidad" => "Descubre la biodiversidad local y cómo proteger los ecosistemas.",
-            "Stand2_Agua" => "Aprende sobre el ciclo del agua y su conservación.",
-            "Stand3_Energía" => "Explora fuentes de energía renovable y su impacto.",
-            "Stand4_Residuos" => "Comprende cómo separar residuos y reciclar correctamente.",
-            _ => "Contenido educativo RA"
-        };
+            Debug.LogWarning("Simulación: No se ha asignado un prefab.");
+            return;
+        }
 
-        infoText.text = descripcion;
-    }
-
-    /// <summary>
-    /// Ejecuta una acción especial (animación, escena, sonido) según el stand detectado.
-    /// </summary>
-    private void EjecutarAccionEspecial(string nombre)
-    {
-        switch (nombre)
+        if (objetoInstanciado == null)
         {
-            case "Stand1_Biodiversidad":
-                // Animación de crecimiento de plantas
-                contenidoActivo[nombre].GetComponent<Animator>()?.SetTrigger("Crecimiento");
-                break;
-
-            case "Stand2_Agua":
-                // Reproducir sonido de agua
-                contenidoActivo[nombre].GetComponent<AudioSource>()?.Play();
-                break;
-
-            case "Stand3_Energía":
-                // Mostrar partículas o efectos
-                ParticleSystem ps = contenidoActivo[nombre].GetComponentInChildren<ParticleSystem>();
-                if (ps != null) ps.Play();
-                break;
-
-            case "Stand4_Residuos":
-                // Cambiar de escena al final del recorrido
-                SceneManager.LoadScene("EscenaFinal");
-                break;
+            objetoInstanciado = Instantiate(objetoPrefab, objetoPrefab.transform.position, objetoPrefab.transform.rotation);
+            objetoInstanciado.name = objetoPrefab.name;
+            Debug.Log($"[Simulación] Objeto instanciado en '{objetoPrefab.name}'.");
+        }
+        else
+        {
+            Debug.Log("[Simulación] El objeto ya está instanciado.");
         }
     }
 }
-
-    
-

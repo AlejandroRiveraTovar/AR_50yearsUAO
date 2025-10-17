@@ -119,76 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &30686424
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 107480, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_Name
-      value: TextToSpeech
-      objectReference: {fileID: 0}
-    - target: {fileID: 107480, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114451114881936422, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: rate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114451114881936422, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
-      propertyPath: pitch
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a592da1d5e8dba34f96c7ca9db6bc203, type: 3}
---- !u!1 &151607747
+--- !u!1 &342502129
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,50 +127,134 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 151607749}
-  - component: {fileID: 151607748}
-  m_Layer: 0
-  m_Name: VoiceAssistantManager
+  - component: {fileID: 342502130}
+  - component: {fileID: 342502132}
+  - component: {fileID: 342502131}
+  m_Layer: 5
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &151607748
+--- !u!224 &342502130
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342502129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 882401421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &342502131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151607747}
+  m_GameObject: {fileID: 342502129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a66e6091040b29d4f986c65c6eb01252, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assistantController: {fileID: 1797137933}
-  speechManager: {fileID: 1142783173}
-  historia1970: 
-  historia1980: 
-  historia1990: 
-  historia2000: 
-  historia2010: 
-  tiempoEsperaNarrar: 1
---- !u!4 &151607749
-Transform:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &342502132
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151607747}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8863022, y: -6.443559, z: -3.5383308}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 342502129}
+  m_CullTransparentMesh: 1
 --- !u!1 &434880393
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +435,7 @@ RectTransform:
   - {fileID: 1287013555}
   - {fileID: 2137587375}
   - {fileID: 434880394}
+  - {fileID: 882401421}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -658,89 +674,139 @@ Transform:
   - {fileID: 1606897377}
   m_Father: {fileID: 1432988671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &751229030
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1797137934}
-    m_Modifications:
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.3432684
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.8143713
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.214763
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3862277631971027947, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_Name
-      value: RobotKyle
-      objectReference: {fileID: 0}
-    - target: {fileID: 3862277631971027947, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
---- !u!1 &751229031 stripped
+--- !u!1 &882401420
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3862277631971027947, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-  m_PrefabInstance: {fileID: 751229030}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &751229038 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1114260476483171701, guid: 7ae956b4f54394e80818898d8f4d30c6, type: 3}
-  m_PrefabInstance: {fileID: 751229030}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 882401421}
+  - component: {fileID: 882401424}
+  - component: {fileID: 882401423}
+  - component: {fileID: 882401422}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &882401421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882401420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 342502130}
+  m_Father: {fileID: 702835673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -427}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &882401422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882401420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 882401423}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1432988676}
+        m_TargetAssemblyTypeName: ImageTracker, Assembly-CSharp
+        m_MethodName: SimularDeteccion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &882401423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882401420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &882401424
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882401420}
+  m_CullTransparentMesh: 1
 --- !u!1 &1002113447
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,794 +943,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002113447}
   m_CullTransparentMesh: 1
---- !u!1 &1142783172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1142783174}
-  - component: {fileID: 1142783173}
-  m_Layer: 0
-  m_Name: SpeechTextManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1142783173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142783172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b905bb398702b5e41856056ae8cde5cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  language: es-ES
-  uIText: {fileID: 1577224650}
-  voiceCommands:
-  - Keyword: Activar asistente
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Hola, soy tu asistente virtual, \xBFen qu\xE9 puedo
-              ayudarte hoy?"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Bienvenido, estoy listo para acompa\xF1arte en esta
-              experiencia"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Hola
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "\xA1Hola! \xBFC\xF3mo te encuentras hoy?"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: En que puedo ayudarte?, estoy listo para comenzar
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: 1970
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 151607748}
-          m_TargetAssemblyTypeName: VoiceAssistantManager, Assembly-CSharp
-          m_MethodName: IrA1970
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: 1980
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 151607748}
-          m_TargetAssemblyTypeName: VoiceAssistantManager, Assembly-CSharp
-          m_MethodName: IrA1980
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: 1990
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 151607748}
-          m_TargetAssemblyTypeName: VoiceAssistantManager, Assembly-CSharp
-          m_MethodName: IrA1990
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: 2000
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 151607748}
-          m_TargetAssemblyTypeName: VoiceAssistantManager, Assembly-CSharp
-          m_MethodName: IrA2000
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: 2010
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 151607748}
-          m_TargetAssemblyTypeName: VoiceAssistantManager, Assembly-CSharp
-          m_MethodName: IrA2010
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "D\xE9cada de 1970"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En la d\xE9cada de 1970 naci\xF3 la Universidad Aut\xF3noma
-              de Occidente, impulsada por un grupo de visionarios que buscaban ofrecer
-              una educaci\xF3n moderna y con sentido humano en el suroccidente colombiano."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Fue una \xE9poca de sue\xF1os y construcci\xF3n, donde
-              se sentaron las bases del proyecto universitario y se estableci\xF3
-              la misi\xF3n de formar profesionales \xE9ticos y comprometidos con
-              el desarrollo regional."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "La visi\xF3n de la UAO desde sus inicios fue integrar
-              ciencia, tecnolog\xEDa y compromiso social."
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "D\xE9cada de 1980"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante los a\xF1os ochenta, la Universidad Aut\xF3noma
-              de Occidente vivi\xF3 un proceso de estructuraci\xF3n interna y planeamiento
-              institucional."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En 1983 obtuvo su autonom\xEDa universitaria, consolidando
-              su independencia acad\xE9mica y administrativa."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Fue una \xE9poca de expansi\xF3n acad\xE9mica, modernizaci\xF3n
-              tecnol\xF3gica y fortalecimiento financiero que prepar\xF3 a la universidad
-              para el futuro."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Los a\xF1os ochenta marcaron la transformaci\xF3n
-              de la UAO en una instituci\xF3n madura, con visi\xF3n estrat\xE9gica
-              y compromiso con la excelencia"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "D\xE9cada de 1990"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En la d\xE9cada de 1990, la Universidad Aut\xF3noma
-              de Occidente impuls\xF3 la innovaci\xF3n y la modernizaci\xF3n educativa."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Se fortalecieron los programas de investigaci\xF3n
-              y se incorporaron nuevas tecnolog\xEDas al aprendizaje"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Fue una \xE9poca de consolidaci\xF3n institucional,
-              de expansi\xF3n acad\xE9mica y de proyecci\xF3n regional"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "La UAO se transform\xF3 en una universidad con una
-              s\xF3lida presencia en el pa\xEDs y una identidad centrada en la formaci\xF3n
-              integral"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "D\xE9cada de 2000"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante la primera d\xE9cada del siglo XXI, la Universidad
-              Aut\xF3noma de Occidente consolid\xF3 su crecimiento acad\xE9mico,
-              investigativo y social"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Se fortalecieron los programas de pregrado, se crearon
-              nuevos posgrados y se promovi\xF3 la investigaci\xF3n aplicada al desarrollo
-              regional"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "La UAO moderniz\xF3 su infraestructura y tecnolog\xEDa,
-              ampliando laboratorios, espacios verdes y zonas de aprendizaje"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Estos a\xF1os consolidaron el compromiso de la universidad
-              con la sostenibilidad, la \xE9tica y la formaci\xF3n integral"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "D\xE9cada de 2010"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Desde 2010, la Universidad Aut\xF3noma de Occidente
-              ha vivido una transformaci\xF3n orientada a la calidad, la sostenibilidad
-              y la internacionalizaci\xF3n."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En 2012 obtuvo la Acreditaci\xF3n Institucional de
-              Alta Calidad, ubic\xE1ndose entre las mejores universidades del pa\xEDs"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante esta etapa se crearon las facultades de Humanidades
-              y Artes, y de Arquitectura, Dise\xF1o y Urbanismo, adem\xE1s de dos
-              doctorados en sostenibilidad"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "La UAO se destac\xF3 por su liderazgo ambiental, alcanzando
-              el primer lugar en Colombia y el tercero en Latinoam\xE9rica en el
-              Green Metric World University Ranking"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante la pandemia, fortaleci\xF3 la educaci\xF3n
-              virtual y multimodal sin perder calidad ni continuidad."
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En 2023 celebr\xF3 sus 50 a\xF1os reafirmando su compromiso
-              con la equidad, la innovaci\xF3n y la formaci\xF3n integral"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Historia Completa
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "La historia de la Universidad Aut\xF3noma de Occidente
-              es un recorrido de m\xE1s de cinco d\xE9cadas de crecimiento, innovaci\xF3n
-              y compromiso con la sociedad"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Desde su fundaci\xF3n en los a\xF1os setenta, la UAO
-              ha evolucionado hasta convertirse en una instituci\xF3n reconocida
-              por su excelencia acad\xE9mica y su liderazgo en sostenibilidad"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Cada d\xE9cada ha representado un paso hacia una universidad
-              m\xE1s humana, tecnol\xF3gica y comprometida con el desarrollo sostenible
-              del pa\xEDs"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Hoy, la UAO es s\xEDmbolo de conocimiento, \xE9tica
-              y transformaci\xF3n social"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "\xBFQui\xE9n eres?"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Soy tu asistente virtual, dise\xF1ado para guiarte
-              durante esta experiencia interactiva"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Puedes llamarme Kyle, soy parte del sistema de asistencia
-              inteligente
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: "\xBFQue puedes hacer?"
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Puedo responder preguntas, contarte la historia del
-              lugar y mostrarte informaci\xF3n adicional"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Estoy aqu\xED para ayudarte a explorar el entorno
-              y aprender m\xE1s sobre cada d\xE9cada"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Mostrar 1970
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En los a\xF1os setenta se consolidaron los primeros
-              proyectos de investigaci\xF3n y extensi\xF3n universitaria"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante la d\xE9cada de 1970 se vivieron grandes cambios
-              en la educaci\xF3n y la cultura universitaria"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Mostrar 1980
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "En los a\xF1os ochenta la universidad fortaleci\xF3
-              su infraestructura y su proyecci\xF3n acad\xE9mica"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "D\xE9cada de transformaciones sociales y nuevos programas
-              educativos"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Mostrar 1990
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Los a\xF1os noventa fueron una \xE9poca de expansi\xF3n
-              y apertura a la comunidad internacional"
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1142783173}
-          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
-          m_MethodName: StartSpeaking
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Durante los a\xF1os noventa surgieron nuevas facultades
-              y proyectos institucionales destacados"
-            m_BoolArgument: 1
-          m_CallState: 2
-  - Keyword: Desactivar Asistente
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "Los a\xF1os noventa fueron una \xE9poca de expansi\xF3n
-              y apertura a la comunidad internacional"
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!4 &1142783174
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142783172}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1287013554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,8 +1029,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1432988671}
   - component: {fileID: 1432988670}
+  - component: {fileID: 1432988676}
   - component: {fileID: 1432988673}
-  - component: {fileID: 1432988672}
   - component: {fileID: 1432988675}
   - component: {fileID: 1432988674}
   m_Layer: 0
@@ -1795,27 +1073,6 @@ Transform:
   - {fileID: 730129975}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1432988672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432988669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8c6f0cffaea6d54b999fdb7d3ac0e0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arManager: {fileID: 1432988673}
-  contenidosRA:
-  - {fileID: 7543006574824778214, guid: 3732cba8339318548854a9761994cde9, type: 3}
-  - {fileID: 6682991425939823491, guid: 06d575c51e2f6b248b9aceb2854b89fc, type: 3}
-  - {fileID: 1404453204532489555, guid: 2d7ceef544633264a8b5c3296f9ab2b9, type: 3}
-  - {fileID: 2899625207139736704, guid: 775f2b12ea62ed74996dcc9ac2b98b99, type: 3}
-  - {fileID: 156757607370194786, guid: deec7090eb4b6b040966a4fd41d71e25, type: 3}
-  infoCanvas: {fileID: 0}
-  infoText: {fileID: 0}
 --- !u!114 &1432988673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,6 +1128,22 @@ MonoBehaviour:
       m_Calls: []
   m_PlanePrefab: {fileID: 0}
   m_DetectionMode: -1
+--- !u!114 &1432988676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432988669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c6f0cffaea6d54b999fdb7d3ac0e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arManager: {fileID: 1432988673}
+  objetoPrefab: {fileID: 8551205346594469759, guid: e4427d88a6003fa48a8ff11aaf440607, type: 3}
+  infoCanvas: {fileID: 0}
+  infoText: {fileID: 0}
 --- !u!1 &1433879659
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,121 +1636,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1703601102
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 107480, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_Name
-      value: SpeechToText
-      objectReference: {fileID: 0}
-    - target: {fileID: 107480, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 460522, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
---- !u!1 &1797137932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1797137934}
-  - component: {fileID: 1797137933}
-  m_Layer: 0
-  m_Name: RobotKyle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1797137933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797137932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba2deec46d3878a4d816879098cd51a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  punto1970: {fileID: 0}
-  punto1980: {fileID: 0}
-  punto1990: {fileID: 0}
-  punto2000: {fileID: 0}
-  punto2010: {fileID: 0}
-  velocidadCaminata: 2
-  velocidadGiro: 5
-  distanciaMinima: 0.5
-  modoRA: 1
---- !u!4 &1797137934
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797137932}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3432684, y: -4.0223713, z: 9.864762}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 751229038}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1996193115
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,7 +1811,7 @@ MonoBehaviour:
   OnButtonPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1142783173}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
         m_MethodName: StartListening
         m_Mode: 1
@@ -2668,7 +1826,7 @@ MonoBehaviour:
   OnButtonRealeased:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1142783173}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
         m_MethodName: StopListening
         m_Mode: 1
@@ -2914,10 +2072,5 @@ SceneRoots:
   - {fileID: 1996193118}
   - {fileID: 1433879662}
   - {fileID: 1432988671}
-  - {fileID: 1703601102}
-  - {fileID: 30686424}
   - {fileID: 702835673}
   - {fileID: 1667431103}
-  - {fileID: 1142783174}
-  - {fileID: 1797137934}
-  - {fileID: 151607749}
