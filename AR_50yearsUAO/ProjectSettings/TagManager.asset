@@ -10,6 +10,8 @@ TagManager:
   - Stand1990
   - Stand2000
   - Stand2010
+  - Stand
+  - RutaPoint
   layers:
   - Default
   - TransparentFX

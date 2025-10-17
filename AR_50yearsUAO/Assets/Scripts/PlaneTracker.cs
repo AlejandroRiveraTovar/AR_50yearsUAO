@@ -96,9 +96,7 @@ public class PlaneTracker : MonoBehaviour
             case "Stand5": name = "2010-1"; break;
         }
 
-        var imageTracker = gameObject.GetComponent<ImageTracker>();
-        if (imageTracker != null)
-            imageTracker.SimularDeteccion(name, objetoActual.transform);
+     
         reconocimientoActivo = false;
         Debug.Log($"Objeto '{objetoActual.name}' instanciado sobre el plano.");
     }
