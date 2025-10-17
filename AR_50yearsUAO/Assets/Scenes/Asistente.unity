@@ -2453,11 +2453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2deec46d3878a4d816879098cd51a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  punto1970: {fileID: 0}
-  punto1980: {fileID: 0}
-  punto1990: {fileID: 0}
-  punto2000: {fileID: 0}
-  punto2010: {fileID: 0}
+  punto1970: {fileID: 8001025848219039124, guid: bba15ff1b006f494da344fed4ccddb2b, type: 3}
+  punto1980: {fileID: 6018340341678871880, guid: 7eba7a04523904b43836416f02122762, type: 3}
+  punto1990: {fileID: 5802876346270972833, guid: e963e1163c95ec542acafc12b42dafa9, type: 3}
+  punto2000: {fileID: 5073783524156657446, guid: 07fb515847e71c145bd47ddaafb0a666, type: 3}
+  punto2010: {fileID: 6184048822853625218, guid: f50692d129a998444860171b447d6ae7, type: 3}
   velocidadCaminata: 2
   velocidadGiro: 5
   distanciaMinima: 0.5

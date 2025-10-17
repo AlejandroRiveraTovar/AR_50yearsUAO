@@ -24,8 +24,6 @@ namespace TextSpeech
             }
         }
 
-        public static object instance { get; internal set; }
-
         void Awake()
         {
             _instance = this;
