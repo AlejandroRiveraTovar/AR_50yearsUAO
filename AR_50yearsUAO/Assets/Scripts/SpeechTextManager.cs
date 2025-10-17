@@ -18,8 +18,8 @@ public class SpeechTextManager : MonoBehaviour
         public UnityEvent Response;
     }
 
-    public VoiceCommand[] voiceCommands;
-
+    
+    public List<VoiceCommand> voiceCommands = new List<VoiceCommand>();
     private Dictionary<string, UnityEvent> commands = new Dictionary<string, UnityEvent>();
 
     private void Awake()

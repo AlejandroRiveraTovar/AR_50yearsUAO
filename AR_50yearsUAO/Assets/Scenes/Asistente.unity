@@ -240,6 +240,235 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &346700402
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tracked Image Mesh Visualizer
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 030001000000030002000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf00000080000080bf0000008000000000000000000000003f00000000000000bf00000080000080bf000000800000803f000000000000003f000000000000003f00000080000080bf000000800000803f0000803f000000bf000000000000003f00000080000080bf00000080000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &430866230
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2010-1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 003bcb6d9ed3200458060795a85c4deb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &528461595
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 1980-1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d9695c4dc412f2a46b7bc83402207615, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &702835672
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +718,203 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &927166129
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2000-1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6f17579fb8a06714d825334d4a9d4001, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!43 &1029905302
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tracked Image Mesh Visualizer
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 030001000000030002000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf00000080000080bf0000008000000000000000000000003f00000000000000bf00000080000080bf000000800000803f000000000000003f000000000000003f00000080000080bf000000800000803f0000803f000000bf000000000000003f00000080000080bf00000080000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1135255769
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,7 +1003,21 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Hola, soy tu asistente
+            m_StringArgument: "Hola, soy tu asistente virtual, \xBFen qu\xE9 puedo
+              ayudarte hoy?"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Bienvenido, estoy listo para acompa\xF1arte en esta
+              experiencia"
             m_BoolArgument: 1
           m_CallState: 2
   - Keyword: Hola
@@ -593,13 +1033,9 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: En que puedo ayudarte?
+            m_StringArgument: "\xA1Hola! \xBFC\xF3mo te encuentras hoy?"
             m_BoolArgument: 1
           m_CallState: 2
-  - Keyword: Desactivar asistente
-    Response:
-      m_PersistentCalls:
-        m_Calls:
         - m_Target: {fileID: 1142783173}
           m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
           m_MethodName: StartSpeaking
@@ -609,20 +1045,8 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
+            m_StringArgument: En que puedo ayudarte?, estoy listo para comenzar
             m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 751229031}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Hasta la proxima
-            m_BoolArgument: 0
           m_CallState: 2
   - Keyword: 1970
     Response:
@@ -763,6 +1187,537 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: Hasta la proxima
             m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "D\xE9cada de 1970"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En la d\xE9cada de 1970 naci\xF3 la Universidad Aut\xF3noma
+              de Occidente, impulsada por un grupo de visionarios que buscaban ofrecer
+              una educaci\xF3n moderna y con sentido humano en el suroccidente colombiano."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Fue una \xE9poca de sue\xF1os y construcci\xF3n, donde
+              se sentaron las bases del proyecto universitario y se estableci\xF3
+              la misi\xF3n de formar profesionales \xE9ticos y comprometidos con
+              el desarrollo regional."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "La visi\xF3n de la UAO desde sus inicios fue integrar
+              ciencia, tecnolog\xEDa y compromiso social."
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "D\xE9cada de 1980"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante los a\xF1os ochenta, la Universidad Aut\xF3noma
+              de Occidente vivi\xF3 un proceso de estructuraci\xF3n interna y planeamiento
+              institucional."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En 1983 obtuvo su autonom\xEDa universitaria, consolidando
+              su independencia acad\xE9mica y administrativa."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Fue una \xE9poca de expansi\xF3n acad\xE9mica, modernizaci\xF3n
+              tecnol\xF3gica y fortalecimiento financiero que prepar\xF3 a la universidad
+              para el futuro."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Los a\xF1os ochenta marcaron la transformaci\xF3n
+              de la UAO en una instituci\xF3n madura, con visi\xF3n estrat\xE9gica
+              y compromiso con la excelencia"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "D\xE9cada de 1990"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En la d\xE9cada de 1990, la Universidad Aut\xF3noma
+              de Occidente impuls\xF3 la innovaci\xF3n y la modernizaci\xF3n educativa."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Se fortalecieron los programas de investigaci\xF3n
+              y se incorporaron nuevas tecnolog\xEDas al aprendizaje"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Fue una \xE9poca de consolidaci\xF3n institucional,
+              de expansi\xF3n acad\xE9mica y de proyecci\xF3n regional"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "La UAO se transform\xF3 en una universidad con una
+              s\xF3lida presencia en el pa\xEDs y una identidad centrada en la formaci\xF3n
+              integral"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "D\xE9cada de 2000"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante la primera d\xE9cada del siglo XXI, la Universidad
+              Aut\xF3noma de Occidente consolid\xF3 su crecimiento acad\xE9mico,
+              investigativo y social"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Se fortalecieron los programas de pregrado, se crearon
+              nuevos posgrados y se promovi\xF3 la investigaci\xF3n aplicada al desarrollo
+              regional"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "La UAO moderniz\xF3 su infraestructura y tecnolog\xEDa,
+              ampliando laboratorios, espacios verdes y zonas de aprendizaje"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Estos a\xF1os consolidaron el compromiso de la universidad
+              con la sostenibilidad, la \xE9tica y la formaci\xF3n integral"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "D\xE9cada de 2010"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Desde 2010, la Universidad Aut\xF3noma de Occidente
+              ha vivido una transformaci\xF3n orientada a la calidad, la sostenibilidad
+              y la internacionalizaci\xF3n."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En 2012 obtuvo la Acreditaci\xF3n Institucional de
+              Alta Calidad, ubic\xE1ndose entre las mejores universidades del pa\xEDs"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante esta etapa se crearon las facultades de Humanidades
+              y Artes, y de Arquitectura, Dise\xF1o y Urbanismo, adem\xE1s de dos
+              doctorados en sostenibilidad"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "La UAO se destac\xF3 por su liderazgo ambiental, alcanzando
+              el primer lugar en Colombia y el tercero en Latinoam\xE9rica en el
+              Green Metric World University Ranking"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante la pandemia, fortaleci\xF3 la educaci\xF3n
+              virtual y multimodal sin perder calidad ni continuidad."
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En 2023 celebr\xF3 sus 50 a\xF1os reafirmando su compromiso
+              con la equidad, la innovaci\xF3n y la formaci\xF3n integral"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: Historia Completa
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "La historia de la Universidad Aut\xF3noma de Occidente
+              es un recorrido de m\xE1s de cinco d\xE9cadas de crecimiento, innovaci\xF3n
+              y compromiso con la sociedad"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Desde su fundaci\xF3n en los a\xF1os setenta, la UAO
+              ha evolucionado hasta convertirse en una instituci\xF3n reconocida
+              por su excelencia acad\xE9mica y su liderazgo en sostenibilidad"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Cada d\xE9cada ha representado un paso hacia una universidad
+              m\xE1s humana, tecnol\xF3gica y comprometida con el desarrollo sostenible
+              del pa\xEDs"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Hoy, la UAO es s\xEDmbolo de conocimiento, \xE9tica
+              y transformaci\xF3n social"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "\xBFQui\xE9n eres?"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Soy tu asistente virtual, dise\xF1ado para guiarte
+              durante esta experiencia interactiva"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Puedes llamarme Kyle, soy parte del sistema de asistencia
+              inteligente
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: "\xBFQue puedes hacer?"
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Puedo responder preguntas, contarte la historia del
+              lugar y mostrarte informaci\xF3n adicional"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Estoy aqu\xED para ayudarte a explorar el entorno
+              y aprender m\xE1s sobre cada d\xE9cada"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: Mostrar 1970
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En los a\xF1os setenta se consolidaron los primeros
+              proyectos de investigaci\xF3n y extensi\xF3n universitaria"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante la d\xE9cada de 1970 se vivieron grandes cambios
+              en la educaci\xF3n y la cultura universitaria"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: Mostrar 1980
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "En los a\xF1os ochenta la universidad fortaleci\xF3
+              su infraestructura y su proyecci\xF3n acad\xE9mica"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "D\xE9cada de transformaciones sociales y nuevos programas
+              educativos"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: Mostrar 1990
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Los a\xF1os noventa fueron una \xE9poca de expansi\xF3n
+              y apertura a la comunidad internacional"
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1142783173}
+          m_TargetAssemblyTypeName: SpeechTextManager, Assembly-CSharp
+          m_MethodName: StartSpeaking
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Durante los a\xF1os noventa surgieron nuevas facultades
+              y proyectos institucionales destacados"
+            m_BoolArgument: 1
+          m_CallState: 2
+  - Keyword: Desactivar Asistente
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 751229031}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Los a\xF1os noventa fueron una \xE9poca de expansi\xF3n
+              y apertura a la comunidad internacional"
+            m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &1142783174
 Transform:
@@ -1037,6 +1992,171 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1527622625
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tracked Image Mesh Visualizer
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 030001000000030002000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf00000080000080bf0000008000000000000000000000003f00000000000000bf00000080000080bf000000800000803f000000000000003f000000000000003f00000080000080bf000000800000803f0000803f000000bf000000000000003f00000080000080bf00000080000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1577224649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,6 +2650,203 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2464bcbb9cb0e148844469d8bdd76dd, type: 3}
+--- !u!21 &1756123331
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 1970-1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fa88746c3dc81d8419187b292b45d5ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!43 &1792656907
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tracked Image Mesh Visualizer
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 030001000000030002000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf00000080000080bf0000008000000000000000000000003f00000000000000bf00000080000080bf000000800000803f000000000000003f000000000000003f00000080000080bf000000800000803f0000803f000000bf000000000000003f00000080000080bf00000080000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1797137932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +3131,171 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &2076905507
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tracked Image Mesh Visualizer
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 030001000000030002000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf00000080000080bf0000008000000000000000000000003f00000000000000bf00000080000080bf000000800000803f000000000000003f000000000000003f00000080000080bf000000800000803f0000803f000000bf000000000000003f00000080000080bf00000080000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &2099571993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,6 +3490,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115001389}
   m_CullTransparentMesh: 1
+--- !u!21 &2115477534
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 1990-1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b4b4e660dd82f4a4799d2e505c9fc8fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2132445384
 GameObject:
   m_ObjectHideFlags: 0
