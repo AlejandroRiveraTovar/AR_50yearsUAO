@@ -756,7 +756,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1432988676}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ImageTracker, Assembly-CSharp
         m_MethodName: SimularDeteccion
         m_Mode: 1
@@ -952,8 +952,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1432988671}
   - component: {fileID: 1432988670}
-  - component: {fileID: 1432988676}
-  - component: {fileID: 1432988673}
   - component: {fileID: 1432988675}
   - component: {fileID: 1432988674}
   m_Layer: 0
@@ -996,24 +994,6 @@ Transform:
   - {fileID: 730129975}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1432988673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432988669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <trackablesChanged>k__BackingField:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SerializedLibrary: {fileID: 11400000, guid: e3b8dad8aa0fcec4297416862a02aba2, type: 2}
-  m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1432988674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,6 +1012,7 @@ MonoBehaviour:
   - {fileID: 6780935004493784291, guid: e963e1163c95ec542acafc12b42dafa9, type: 3}
   - {fileID: 5464042678388336169, guid: 07fb515847e71c145bd47ddaafb0a666, type: 3}
   - {fileID: 6268825300455153738, guid: f50692d129a998444860171b447d6ae7, type: 3}
+  guia: {fileID: 8551205346594469759, guid: e4427d88a6003fa48a8ff11aaf440607, type: 3}
   indiceObjeto: 0
   reconocimientoActivo: 1
 --- !u!114 &1432988675
@@ -1051,22 +1032,6 @@ MonoBehaviour:
       m_Calls: []
   m_PlanePrefab: {fileID: 0}
   m_DetectionMode: -1
---- !u!114 &1432988676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432988669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8c6f0cffaea6d54b999fdb7d3ac0e0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arManager: {fileID: 1432988673}
-  objetoPrefab: {fileID: 8551205346594469759, guid: e4427d88a6003fa48a8ff11aaf440607, type: 3}
-  infoCanvas: {fileID: 0}
-  infoText: {fileID: 0}
 --- !u!1 &1433879659
 GameObject:
   m_ObjectHideFlags: 0
