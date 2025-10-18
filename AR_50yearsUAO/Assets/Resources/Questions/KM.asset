@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: KM
   m_EditorClassIdentifier: 
-  _info: "\xBFQui\xE9n ha sido reconocido por su liderazgo visionario en la Universidad
-    Aut\xF3noma de Occidente?"
+  _info: "\xBFQu\xE9 evento represent\xF3 un s\xEDmbolo de inclusi\xF3n y equidad
+    durante la expansi\xF3n institucional de los a\xF1os 80?"
   _answers:
-  - _info: "Gabriel Garc\xEDa M\xE1rquez"
+  - _info: "La creaci\xF3n de programas de becas estudiantiles"
     _isCorrect: 0
-  - _info: "\xC1lvaro Uribe"
-    _isCorrect: 0
-  - _info: "Luis H. P\xE9rez"
+  - _info: 'El sistema de transporte universitario '
     _isCorrect: 1
+  - _info: "La apertura del Auditorio M\xFAltiple"
+    _isCorrect: 0
+  - _info: "La implementaci\xF3n de laboratorios de c\xF3mputo"
+    _isCorrect: 0
   _useTimer: 1
-  _timer: 15
+  _timer: 25
   _answerType: 1
-  _addScore: 10
+  _addScore: 20

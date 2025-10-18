@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: TallestMountain
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 invita a hacer la Universidad con la exposici\xF3n conmemorativa?"
+  _info: "\xBFQu\xE9 logro fundamental alcanz\xF3 la UAO en 2012?"
   _answers:
-  - _info: "Participar en un concurso de innovaci\xF3n"
+  - _info: Su primer doctorado
     _isCorrect: 0
-  - _info: "Acompa\xF1ar una traves\xEDa intelectual y afectiva a trav\xE9s del tiempo
-      y el conocimiento"
+  - _info: La apertura del campus del Valle del Lili
+    _isCorrect: 0
+  - _info: "La Acreditaci\xF3n Institucional de Alta Calidad "
     _isCorrect: 1
-  - _info: "Donar a la instituci\xF3n"
+  - _info: Su primera alianza internacional
     _isCorrect: 0
   _useTimer: 1
   _timer: 15

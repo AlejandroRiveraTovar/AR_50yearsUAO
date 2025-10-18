@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ImportantQuestion
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 valores se destacan en la experiencia educativa de la Universidad?"
+  _info: "\xBFCu\xE1l fue uno de los principales reconocimientos internacionales
+    que obtuvo la UAO en 2018?"
   _answers:
-  - _info: Disciplina y obediencia
+  - _info: "Primer lugar en innovaci\xF3n educativa"
     _isCorrect: 0
-  - _info: "Calidad educativa, ense\xF1anza de valores y transmisi\xF3n de saberes"
+  - _info: Primer lugar en sostenibilidad ambiental en Colombia
     _isCorrect: 1
-  - _info: "Innovaci\xF3n y desarrollo industrial"
+  - _info: Premio Nacional a la Responsabilidad Social
+    _isCorrect: 0
+  - _info: "Acreditaci\xF3n ABET"
     _isCorrect: 0
   _useTimer: 1
-  _timer: 25
+  _timer: 20
   _answerType: 1
-  _addScore: 30
+  _addScore: 15

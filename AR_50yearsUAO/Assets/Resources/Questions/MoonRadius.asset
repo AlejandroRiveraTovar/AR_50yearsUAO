@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: MoonRadius
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 elementos conforman la exposici\xF3n \u201CMEMORIAS: 50 a\xF1os
-    entre historias\u201D?"
+  _info: "\xBFQu\xE9 hecho marc\xF3 la transformaci\xF3n f\xEDsica y simb\xF3lica
+    de la UAO durante la d\xE9cada de 1990?"
   _answers:
-  - _info: "Im\xE1genes, objetos y relatos que reflejan la historia institucional"
-    _isCorrect: 1
-  - _info: Documentos administrativos y reglamentos internos
+  - _info: La apertura de la Facultad de Humanidades
     _isCorrect: 0
-  - _info: Videos de ceremonias de grado
+  - _info: "La creaci\xF3n de los primeros posgrados"
+    _isCorrect: 0
+  - _info: "La construcci\xF3n del campus en el Valle del Lili"
+    _isCorrect: 1
+  - _info: "La implementaci\xF3n de clases virtuales"
     _isCorrect: 0
   _useTimer: 1
-  _timer: 25
+  _timer: 20
   _answerType: 1
-  _addScore: 30
+  _addScore: 15

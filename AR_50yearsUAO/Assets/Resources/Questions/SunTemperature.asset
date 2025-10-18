@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: SunTemperature
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 simboliza la frase \u201CEsta historia llena de triunfos, simboliza
-    la persistencia y el poder transformador de la educaci\xF3n\u201D?"
+  _info: "\xBFCu\xE1l fue uno de los hitos m\xE1s importantes para la UAO durante
+    la d\xE9cada de 1980?"
   _answers:
-  - _info: "El esfuerzo colectivo y el impacto de la educaci\xF3n en la sociedad"
-    _isCorrect: 1
-  - _info: "Los logros financieros de la instituci\xF3n"
+  - _info: "La creaci\xF3n del primer doctorado"
     _isCorrect: 0
-  - _info: La competencia entre universidades
+  - _info: "La obtenci\xF3n de su autonom\xEDa universitaria "
+    _isCorrect: 1
+  - _info: "La inauguraci\xF3n del campus Valle del Lili"
+    _isCorrect: 0
+  - _info: "La primera acreditaci\xF3n internacional"
     _isCorrect: 0
   _useTimer: 1
   _timer: 20
   _answerType: 1
-  _addScore: 20
+  _addScore: 15

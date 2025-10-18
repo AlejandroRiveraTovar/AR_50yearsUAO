@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ChooseCorrectAnswer
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 representa \u201CMEMORIAS: 50 a\xF1os entre historias\u201D
-    para la Universidad Aut\xF3noma de Occidente?"
+  _info: "\xBFEn qu\xE9 a\xF1o se fund\xF3 la Corporaci\xF3n Aut\xF3noma de Occidente,
+    origen de la UAO?"
   _answers:
-  - _info: "Una cronolog\xEDa de los programas acad\xE9micos ofrecidos"
+  - _info: 1965
     _isCorrect: 0
-  - _info: El recorrido de una trayectoria construida por centenares de personas
+  - _info: 1970
     _isCorrect: 1
-  - _info: Un informe institucional sobre logros financieros
+  - _info: 1975
+    _isCorrect: 0
+  - _info: 1980
     _isCorrect: 0
   _useTimer: 1
   _timer: 15

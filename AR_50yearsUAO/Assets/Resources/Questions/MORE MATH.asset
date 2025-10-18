@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: MORE MATH
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 aspecto caracteriza la labor de la Universidad en sus 50 a\xF1os?"
+  _info: "\xBFQu\xE9 valores institucionales se consolidaron durante la d\xE9cada
+    de 1980 y permanecen hasta hoy como pilares de la UAO?"
   _answers:
-  - _info: Su dependencia de instituciones extranjeras
+  - _info: Productividad, liderazgo y eficiencia
     _isCorrect: 0
-  - _info: "Su enfoque en la producci\xF3n industrial"
-    _isCorrect: 0
-  - _info: "Su labor fecunda que enorgullece a la comunidad aut\xF3noma"
+  - _info: "Autonom\xEDa, calidad, planeaci\xF3n e innovaci\xF3n "
     _isCorrect: 1
+  - _info: "Competitividad, tecnolog\xEDa y expansi\xF3n"
+    _isCorrect: 0
+  - _info: "Investigaci\xF3n, arte y sostenibilidad"
+    _isCorrect: 0
   _useTimer: 1
-  _timer: 20
+  _timer: 25
   _answerType: 1
   _addScore: 20

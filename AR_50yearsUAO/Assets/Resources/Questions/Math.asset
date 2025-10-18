@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: Math
   m_EditorClassIdentifier: 
-  _info: "\xBFQu\xE9 busca promover la UAO a trav\xE9s del acceso al conocimiento?"
+  _info: "\xBFQu\xE9 aspectos definieron la transformaci\xF3n acad\xE9mica de la
+    UAO durante la d\xE9cada de 2000?"
   _answers:
-  - _info: La competencia entre sus estudiantes
+  - _info: "Internacionalizaci\xF3n y cooperaci\xF3n cient\xEDfica"
     _isCorrect: 0
-  - _info: "La centralizaci\xF3n de la educaci\xF3n"
-    _isCorrect: 0
-  - _info: "Una naci\xF3n progresista y respetuosa de la diversidad"
+  - _info: "Crecimiento de posgrados y modernizaci\xF3n tecnol\xF3gica "
     _isCorrect: 1
+  - _info: "Adopci\xF3n de la educaci\xF3n virtual"
+    _isCorrect: 0
+  - _info: "Ampliaci\xF3n del campus Valle del Lili"
+    _isCorrect: 0
   _useTimer: 1
-  _timer: 20
+  _timer: 25
   _answerType: 1
   _addScore: 20

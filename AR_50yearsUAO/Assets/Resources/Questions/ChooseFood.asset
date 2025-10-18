@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ChooseFood
   m_EditorClassIdentifier: 
-  _info: "\xBFCu\xE1l ha sido el prop\xF3sito principal de la Universidad Aut\xF3noma
-    de Occidente a lo largo de sus 50 a\xF1os?"
+  _info: "\xBFQu\xE9 lema guio el proceso de estructuraci\xF3n interna de la UAO
+    en los primeros a\xF1os de la d\xE9cada de 1980?"
   _answers:
-  - _info: "Ofrecer educaci\xF3n y oportunidades a los j\xF3venes vallecaucanos"
-    _isCorrect: 1
-  - _info: Expandirse internacionalmente
+  - _info: "\u201CPensar el futuro con autonom\xEDa\u201D"
     _isCorrect: 0
-  - _info: "Enfocarse en la investigaci\xF3n militar"
+  - _info: "\u201CCalidad y compromiso social\u201D"
+    _isCorrect: 0
+  - _info: "\u201COrganizar el presente y pensar el futuro\u201D "
+    _isCorrect: 1
+  - _info: "\u201CHacia una educaci\xF3n integral\u201D"
     _isCorrect: 0
   _useTimer: 1
-  _timer: 20
+  _timer: 15
   _answerType: 1
-  _addScore: 20
+  _addScore: 10
