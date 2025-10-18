@@ -19,11 +19,12 @@ public class PlaneTracker : MonoBehaviour
     [Header("Prefabs disponibles para instanciar")]
     [Tooltip("Lista de objetos que pueden ser instanciados al detectar un plano.")]
     public List<GameObject> objetosDisponibles = new List<GameObject>();
-
+    public GameObject guia;
     [Header("Índice del objeto a instanciar")]
     [Tooltip("Selecciona el índice del objeto en la lista para instanciar.")]
     [Range(0, 10)]
     public int indiceObjeto = 0;
+
 
     [Header("Opciones de reconocimiento")]
     [Tooltip("Si está activo, buscará planos y podrá colocar objetos.")]
@@ -66,7 +67,8 @@ public class PlaneTracker : MonoBehaviour
     }
 
     /// <summary>
-    /// Instancia el objeto seleccionado sobre el centro del plano detectado.
+    /// Instancia el objeto seleccionado sobre el centro del plano detectado,
+    /// con una pequeña elevación para evitar que se hunda en el plano.
     /// </summary>
     private void InstanciarObjeto(ARPlane plano)
     {
@@ -80,12 +82,15 @@ public class PlaneTracker : MonoBehaviour
         if (objetoActual != null)
             Destroy(objetoActual);
 
-        Vector3 posicion = plano.center;
-        GameObject prefab = objetosDisponibles[indiceObjeto];
+        // Altura de elevación sobre el plano (ajustable)
+        float altura = 0.1f; // 10 cm por encima
+        Vector3 posicion = plano.center + Vector3.up * altura;
 
+        GameObject prefab = objetosDisponibles[indiceObjeto];
         objetoActual = Instantiate(prefab, posicion, Quaternion.identity);
         objetoActual.name = prefab.name;
 
+        // Ajuste opcional según el nombre del prefab
         string name = prefab.name;
         switch (name)
         {
@@ -96,9 +101,11 @@ public class PlaneTracker : MonoBehaviour
             case "Stand5": name = "2010-1"; break;
         }
 
-     
+        // Instancia la guía un poco más arriba para evitar solapamiento visual
+        Instantiate(guia, posicion + Vector3.up * 0.05f, Quaternion.identity);
+
         reconocimientoActivo = false;
-        Debug.Log($"Objeto '{objetoActual.name}' instanciado sobre el plano.");
+        Debug.Log($"Objeto '{objetoActual.name}' instanciado sobre el plano a {altura} m de altura.");
     }
 
 
@@ -127,4 +134,16 @@ public class PlaneTracker : MonoBehaviour
     {
         indiceObjeto--;
     }
+    private void Update()
+    {
+        if(indiceObjeto > 4) 
+        {
+            indiceObjeto = 4;
+        }
+        if (indiceObjeto < 0)
+        {
+            indiceObjeto = 0;
+        }
+    }
+
 }
